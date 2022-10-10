@@ -404,7 +404,7 @@ body {
   text-align: center;
 }
 #es-vichy.es-vichy .es-benefits {
-  background: url("images/bg-3.jpg") no-repeat;
+  background: url(images/bg-3.jpg) no-repeat;
   background-position: right bottom;
   min-height: 1060px;
   padding: 0 16px;
@@ -416,7 +416,7 @@ body {
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
-  font-size: 22px;
+  font-size: 21px;
   margin-bottom: 40px;
   text-align: center;
   font-weight: 700;
@@ -530,8 +530,8 @@ body {
   max-height: none;
 }
 #es-vichy.es-vichy .es-cross__single {
-  max-width: 250px;
-  margin-bottom: 32px;
+  max-width: 186px;
+  margin-bottom: 70px;
   padding: 0 8px;
   display: flex;
   flex-flow: column;
@@ -604,6 +604,7 @@ body {
 }
 #es-vichy.es-vichy .es-cross__packshot--1 {
   max-width: 189px;
+  margin-bottom: 20px;
 }
 #es-vichy.es-vichy .es-cross__packshot--1::before {
   position: absolute;
@@ -644,6 +645,21 @@ body {
   line-height: 1;
   z-index: -1;
 }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  #es-vichy.es-vichy {
+    max-width: 728px;
+  }
+}
+@media screen and (min-width: 340px) {
+  #es-vichy.es-vichy .es-benefits {
+    min-height: 910px;
+  }
+}
+@media screen and (min-width: 500px) {
+  #es-vichy.es-vichy .es-benefits {
+    min-height: 750px;
+  }
+}
 @media screen and (min-width: 560px) {
   #es-vichy.es-vichy .es-kv {
     display: flex;
@@ -666,6 +682,18 @@ body {
   #es-vichy.es-vichy .es-benefits {
     min-height: 742px;
   }
+  #es-vichy.es-vichy .es-benefits {
+    background-position: -170px center;
+    min-height: 602px;
+    display: flex;
+    align-items: center;
+  }
+  #es-vichy.es-vichy .es-benefits__content {
+    margin-top: -140px;
+  }
+  #es-vichy.es-vichy .es-benefits__single {
+    max-width: 130px;
+  }
   #es-vichy.es-vichy .es-cross__photo--desktop {
     display: block;
   }
@@ -686,7 +714,10 @@ body {
     margin-bottom: 32px;
   }
   #es-vichy.es-vichy .es-info__border {
-    margin-bottom: 100px;
+    margin-bottom: 75px;
+  }
+  #es-vichy.es-vichy .es-info__single {
+    max-width: 220px;
   }
   #es-vichy.es-vichy .es-use {
     margin-top: -180px;
@@ -696,13 +727,13 @@ body {
     margin-bottom: 64px;
   }
   #es-vichy.es-vichy .es-use__content {
-    padding-top: 100px;
+    padding-top: 200px;
+    margin-right: -25px;
     max-width: 300px;
-    margin-right: 100px;
     margin-left: auto;
   }
   #es-vichy.es-vichy .es-banner {
-    background: url("images/bg-2.jpg") no-repeat right;
+    background: url(images/bg-2.jpg) no-repeat 200px;
     min-height: 450px;
     display: flex;
     align-items: center;
@@ -719,7 +750,7 @@ body {
     margin-bottom: 0;
   }
   #es-vichy.es-vichy .es-ingr {
-    margin-bottom: 64px;
+    margin-bottom: 0;
   }
   #es-vichy.es-vichy .es-ingr__title {
     margin-bottom: 64px;
@@ -732,13 +763,13 @@ body {
   }
   #es-vichy.es-vichy .es-ingr__single {
     padding: 0;
-    max-width: 230px;
+    max-width: 210px;
   }
   #es-vichy.es-vichy .es-ingr__single:not(:last-child) {
     margin-bottom: 0;
   }
   #es-vichy.es-vichy .es-rev-banner {
-    background: url(images/bg-4.jpg) no-repeat 47%;
+    background: url(images/bg-4.jpg) no-repeat 24%;
     min-height: 474px;
     display: flex;
     justify-content: flex-end;
@@ -746,7 +777,6 @@ body {
     margin-bottom: 100px;
   }
   #es-vichy.es-vichy .es-rev-banner__border {
-    margin-right: 100px;
     margin-bottom: 0;
   }
   #es-vichy.es-vichy .es-rev-banner__content {
@@ -758,6 +788,14 @@ body {
   #es-vichy.es-vichy .es-cross__container {
     justify-content: space-between;
   }
+  #es-vichy.es-vichy .es-cross__single {
+    max-width: 198px;
+  }
+}
+@media screen and (min-width: 769px) {
+  #es-vichy.es-vichy {
+    max-width: 682px;
+  }
 }
 @media screen and (min-width: 860px) {
   #es-vichy.es-vichy .es-benefits {
@@ -766,11 +804,10 @@ body {
     align-items: center;
   }
   #es-vichy.es-vichy .es-benefits__content {
-    margin-left: 84px;
     margin-top: -140px;
   }
   #es-vichy.es-vichy .es-cross__single:nth-child(3) {
-    margin-right: 90px;
+    margin-right: 70px;
   }
 }
 

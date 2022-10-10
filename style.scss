@@ -346,13 +346,13 @@ body {
     }
   }
   .es-benefits {
-    background: url('images/bg-3.jpg') no-repeat;
+    background: url(images/bg-3.jpg) no-repeat;
     background-position: right bottom;
     min-height: 1060px;
     padding: 0 16px;
     &__title {
       @include text;
-      font-size: 22px;
+      font-size: 21px;
       margin-bottom: 40px;
       text-align: center;
       font-weight: 700;
@@ -444,8 +444,8 @@ body {
       }
     }
     &__single {
-      max-width: 250px;
-      margin-bottom: 32px;
+      max-width: 186px;
+      margin-bottom: 70px;
       padding: 0 8px;
       display: flex;
       flex-flow: column;
@@ -505,6 +505,7 @@ body {
 
       &--1 {
         max-width: 189px;
+        margin-bottom: 20px;
 
         &::before {
           position: absolute;
@@ -551,6 +552,22 @@ body {
     }
   }
 
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    max-width: 728px;
+  }
+
+  @media screen and (min-width: 340px) {
+    .es-benefits {
+      min-height: 910px;
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    .es-benefits {
+      min-height: 750px;
+    }
+  }
+
   @media screen and (min-width: 560px) {
     .es-kv {
       display: flex;
@@ -572,6 +589,19 @@ body {
     }
     .es-benefits {
       min-height: 742px;
+    }
+
+    .es-benefits {
+      background-position: -170px center;
+      min-height: 602px;
+      display: flex;
+      align-items: center;
+      &__content {
+        margin-top: -140px;
+      }
+      &__single {
+        max-width: 130px;
+      }
     }
 
     .es-cross {
@@ -606,7 +636,10 @@ body {
     }
     .es-info {
       &__border {
-        margin-bottom: 100px;
+        margin-bottom: 75px;
+      }
+      &__single {
+        max-width: 220px;
       }
     }
     .es-use {
@@ -617,14 +650,14 @@ body {
       align-items: center;
       margin-bottom: 64px;
       &__content {
-        padding-top: 100px;
+        padding-top: 200px;
+        margin-right: -25px;
         max-width: 300px;
-        margin-right: 100px;
         margin-left: auto;
       }
     }
     .es-banner {
-      background: url('images/bg-2.jpg') no-repeat right;
+      background: url(images/bg-2.jpg) no-repeat 200px;
       min-height: 450px;
       display: flex;
       align-items: center;
@@ -644,7 +677,7 @@ body {
       }
     }
     .es-ingr {
-      margin-bottom: 64px;
+      margin-bottom: 0;
       &__title {
         margin-bottom: 64px;
       }
@@ -656,21 +689,20 @@ body {
       }
       &__single {
         padding: 0;
-        max-width: 230px;
+        max-width: 210px;
         &:not(:last-child) {
           margin-bottom: 0;
         }
       }
     }
     .es-rev-banner {
-      background: url(images/bg-4.jpg) no-repeat 47%;
+      background: url(images/bg-4.jpg) no-repeat 24%;
       min-height: 474px;
       display: flex;
       justify-content: flex-end;
       align-items: center;
       margin-bottom: 100px;
       &__border {
-        margin-right: 100px;
         margin-bottom: 0;
       }
       &__content {
@@ -686,7 +718,14 @@ body {
       &__container {
         justify-content: space-between;
       }
+      &__single {
+        max-width: 198px;
+      }
     }
+  }
+
+  @media screen and (min-width: 769px) {
+    max-width: 682px;
   }
 
   @media screen and (min-width: 860px) {
@@ -695,7 +734,7 @@ body {
       display: flex;
       align-items: center;
       &__content {
-        margin-left: 84px;
+        // margin-left: 84px;
         margin-top: -140px;
       }
     }
@@ -705,7 +744,7 @@ body {
         // max-width: 230px;
       }
       &__single:nth-child(3) {
-        margin-right: 90px;
+        margin-right: 70px;
       }
     }
   }
