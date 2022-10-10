@@ -80,7 +80,7 @@ body {
      object-fit: cover;
 }
 #es-vichy.es-vichy .es-kv__content {
-  background: url("images/photo.jpg") center/cover no-repeat;
+  background: url("../images/photo.jpg") center/cover no-repeat;
   padding-top: 69px;
   display: flex;
   justify-content: flex-end;
@@ -117,13 +117,13 @@ body {
   margin-bottom: 32px;
 }
 #es-vichy.es-vichy .es-info__border::before {
-  content: url("images/border-1.png");
+  content: url("../images/border-1.png");
   position: absolute;
   top: 0;
   left: 0;
 }
 #es-vichy.es-vichy .es-info__border::after {
-  content: url("images/border-2.png");
+  content: url("../images/border-2.png");
   position: absolute;
   top: bottom;
   right: 0;
@@ -203,7 +203,7 @@ body {
   margin-bottom: 16px;
 }
 #es-vichy.es-vichy .es-use {
-  background: url("images/bg-1.jpg") no-repeat;
+  background: url("../images/bg-1.jpg") no-repeat;
   background-position: 18% bottom;
   min-height: 720px;
   padding: 0 16px;
@@ -404,7 +404,7 @@ body {
   text-align: center;
 }
 #es-vichy.es-vichy .es-benefits {
-  background: url(images/bg-3.jpg) no-repeat;
+  background: url(../images/bg-3.jpg) no-repeat;
   background-position: right bottom;
   min-height: 1060px;
   padding: 0 16px;
@@ -733,7 +733,7 @@ body {
     margin-left: auto;
   }
   #es-vichy.es-vichy .es-banner {
-    background: url(images/bg-2.jpg) no-repeat 200px;
+    background: url(../images/bg-2.jpg) no-repeat 200px;
     min-height: 450px;
     display: flex;
     align-items: center;
@@ -769,7 +769,7 @@ body {
     margin-bottom: 0;
   }
   #es-vichy.es-vichy .es-rev-banner {
-    background: url(images/bg-4.jpg) no-repeat 24%;
+    background: url(../images/bg-4.jpg) no-repeat 24%;
     min-height: 474px;
     display: flex;
     justify-content: flex-end;

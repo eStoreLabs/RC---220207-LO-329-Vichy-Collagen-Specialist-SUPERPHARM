@@ -88,7 +88,7 @@ body {
       }
     }
     &__content {
-      background: url('images/photo.jpg') center / cover no-repeat;
+      background: url('../images/photo.jpg') center / cover no-repeat;
       padding-top: 69px;
       display: flex;
       justify-content: flex-end;
@@ -118,13 +118,13 @@ body {
       position: relative;
       margin-bottom: 32px;
       &::before {
-        content: url('images/border-1.png');
+        content: url('../images/border-1.png');
         position: absolute;
         top: 0;
         left: 0;
       }
       &::after {
-        content: url('images/border-2.png');
+        content: url('../images/border-2.png');
         position: absolute;
         top: bottom;
         right: 0;
@@ -185,7 +185,7 @@ body {
   }
 
   .es-use {
-    background: url('images/bg-1.jpg') no-repeat;
+    background: url('../images/bg-1.jpg') no-repeat;
     background-position: 18% bottom;
     min-height: 720px;
     padding: 0 16px;
@@ -346,7 +346,7 @@ body {
     }
   }
   .es-benefits {
-    background: url(images/bg-3.jpg) no-repeat;
+    background: url(../images/bg-3.jpg) no-repeat;
     background-position: right bottom;
     min-height: 1060px;
     padding: 0 16px;
@@ -657,7 +657,7 @@ body {
       }
     }
     .es-banner {
-      background: url(images/bg-2.jpg) no-repeat 200px;
+      background: url(../images/bg-2.jpg) no-repeat 200px;
       min-height: 450px;
       display: flex;
       align-items: center;
@@ -696,7 +696,7 @@ body {
       }
     }
     .es-rev-banner {
-      background: url(images/bg-4.jpg) no-repeat 24%;
+      background: url(../images/bg-4.jpg) no-repeat 24%;
       min-height: 474px;
       display: flex;
       justify-content: flex-end;
